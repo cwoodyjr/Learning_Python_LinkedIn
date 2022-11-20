@@ -22,8 +22,13 @@ print(mytuple)
 print(mydict)
 
 # re-declaring a variable works
-
+myint = "abc"
+print(myint)
 # to access a member of a sequence type, use []
+print(mylist[2])
+print(mylist[1:4])
+print(mylist[0:5:2])
+print(mylist[::-1]) #prints lst in reverse
 
 # use slices to get parts of a sequence
 
